@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweet Layers Cakes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Sweet Layers</h1>
+  <p>Fresh cakes, baked to order. Pick your cakes, send your order.</p>
+</header>
+
+<main>
+  <section id="cakes" aria-label="Cakes"></section>
+
+  <aside id="order">
+    <h2>Your order</h2>
+    <ul id="cart"><li class="empty">Your cart is empty. Add a cake to start.</li></ul>
+    <p class="total">Total: <strong id="total">0</strong></p>
+
+    <form id="orderForm">
+      <label>Your name <input name="name" required></label>
+      <label>Phone number <input name="phone" type="tel" required></label>
+      <label>Pickup or delivery date <input name="date" type="date" required></label>
+      <label>Delivery address (leave blank for pickup) <input name="address"></label>
+      <label>Message on the cake (optional) <input name="message" maxlength="40"></label>
+      <button type="submit">Send order on WhatsApp</button>
+    </form>
+  </aside>
+</main>
+
+<footer>Made with love. Edit the cakes in script.js.</footer>
+<script src="script.js"></script>
+</body>
+</html>
