@@ -1,13 +1,13 @@
 // ====== EDIT THESE ======
-const WHATSAPP_NUMBER = "2340000000000"; // country code + number, digits only
+const WHATSAPP_NUMBER = "2347082404675"; // country code + number, digits only
 const CURRENCY = "₦";
 const CAKES = [
-  { id: 1, name: "Chocolate Fudge",  emoji: "🍫", price: 15000, desc: "Rich chocolate sponge with fudge frosting." },
-  { id: 2, name: "Vanilla Berry",    emoji: "🍓", price: 14000, desc: "Light vanilla layers with strawberry cream." },
-  { id: 3, name: "Red Velvet",       emoji: "❤️", price: 16000, desc: "Classic red velvet with cream cheese icing." },
-  { id: 4, name: "Lemon Drizzle",    emoji: "🍋", price: 12000, desc: "Zesty lemon cake with a sweet glaze." },
-  { id: 5, name: "Carrot & Walnut",  emoji: "🥕", price: 13000, desc: "Moist spiced carrot cake with walnuts." },
-  { id: 6, name: "Cupcakes (box of 6)", emoji: "🧁", price: 8000, desc: "Six cupcakes in mixed flavours." }
+  { id: 1, name: "Chocolate Fudge",  emoji: "🍫", price: 40000, desc: "Rich chocolate sponge with fudge frosting." },
+  { id: 2, name: "Vanilla Berry",    emoji: "🍓", price: 50000, desc: "Light vanilla layers with strawberry cream." },
+  { id: 3, name: "Red Velvet",       emoji: "❤️", price: 160000, desc: "Classic red velvet with cream cheese icing." },
+  { id: 4, name: "Lemon Drizzle",    emoji: "🍋", price: 100000, desc: "Zesty lemon cake with a sweet glaze." },
+  { id: 5, name: "Carrot & Walnut",  emoji: "🥕", price: 130000, desc: "Moist spiced carrot cake with walnuts." },
+  { id: 6, name: "Cupcakes (box of 6)", emoji: "🧁", price: 80000, desc: "Six cupcakes in mixed flavours." }
 ];
 // ========================
 
